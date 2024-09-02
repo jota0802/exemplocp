@@ -2,10 +2,13 @@ import {Link} from 'react-router-dom'
 
 const Nav =()=>{
     return(
-        <>
-        <Link to='/'>Home</Link>
-        <Link to='/Produtos'>Produtos</Link>
-        </>
+        
+        <section className='nav'>
+
+            <Link to='/' className='link'>Home</Link>
+            <Link to='/Produtos' className='link'>Produtos</Link>
+
+        </section>
     )
 }
 
