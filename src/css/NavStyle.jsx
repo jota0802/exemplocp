@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const NavStyle = styled.section `
 
 .nav{
+    justify-content: center;
+    alling-itens: center;
     list-style: none;
     display: flex;
     gap: 1rem;
@@ -15,7 +17,7 @@ export const NavStyle = styled.section `
     color:#ffff;
     text-transform:uppercase;
     text-decoration:none;
-    padding:20px;
+    padding:25px;
 }
 .navlink:hover{
     color:yellow;
