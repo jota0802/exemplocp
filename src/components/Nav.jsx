@@ -1,14 +1,14 @@
 import {Link} from 'react-router-dom'
+import {NavStyle} from '../css/NavStyle'
 
 const Nav =()=>{
     return(
-        
-        <section className='nav'>
-
-            <Link to='/' className='link'>Home</Link>
-            <Link to='/Produtos' className='link'>Produtos</Link>
-
-        </section>
+        <NavStyle>
+            <section className='nav'>
+                <Link to='/' className='navlink'>Home</Link>
+                <Link to='/Produtos' className='navlink'>Produtos</Link>
+            </section>
+        </NavStyle>
     )
 }
 
